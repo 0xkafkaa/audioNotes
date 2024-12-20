@@ -1,0 +1,22 @@
+{
+  "name": "audionotes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -b && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/selenium-webdriver": "^4.1.27",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "robotjs": "^0.6.0",
+    "selenium-webdriver": "^4.27.0"
+  }
+}
